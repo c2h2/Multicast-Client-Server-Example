@@ -4,4 +4,13 @@ This is a simple educational example of a multicast
 client and server, running under UNIX and Win32.
 
 To compile, use
- ./autogen.sh && make
+
+    ./autogen.sh && ./configure && make
+    
+    
+Example usage:
+
+    ./server 225.0.0.1 8888 1000 1000
+    
+    ./client 225.0.0.1 8888 12
+    
