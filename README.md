@@ -10,7 +10,7 @@ To compile, use
     
 Example usage:
 
-    ./server 225.0.0.1 8888 1000 1000
+    ./server 225.0.0.1 8888 1000 2000
     
-    ./client 225.0.0.1 8888 12
+    ./client 225.0.0.1 8888 1000
     
